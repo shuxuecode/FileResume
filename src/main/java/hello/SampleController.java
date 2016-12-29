@@ -30,6 +30,7 @@ public class SampleController {
 	@RequestMapping("/")
 	@ResponseBody
 	String home() {
+		Class<? extends SampleController> class1 = getClass();
 		return "Hello World!";
 	}
 
