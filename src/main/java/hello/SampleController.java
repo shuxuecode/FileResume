@@ -68,7 +68,6 @@ public class SampleController {
 
 			// file.transferTo(new File("D:\\temp\\filetest\\" + a));
 		} catch (Exception e) {
-			// TODO: handle exception
 		} finally {
 			try {
 				if (is != null)

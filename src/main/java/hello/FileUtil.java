@@ -92,7 +92,6 @@ public class FileUtil {
 	public static Long[] sliceFile(String filePath) {
 		File file = new File(filePath);
 		long length = file.length();
-		// long size = 1024 * 1024;
 		long start = 0L;
 
 		int arrayLength;
