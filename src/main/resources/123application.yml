@@ -1,0 +1,12 @@
+
+spring:
+    # HTTP ENCODING
+    http:
+        encoding.charset: UTF-8
+        encoding.enable: true
+        encoding.force: true
+
+# LOGGING
+logging:
+    level:
+        org.apache.http: INFO
